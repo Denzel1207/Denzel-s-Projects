@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE WORLD IS YOURS!</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.161/build/three.module.js",
+          "jsm/": "https://cdn.jsdelivr.net/npm/three@0.161/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <script type="module" src="script.js"></script>
+  </body>
+  <div
+    id="overlayText"
+    style="
+      position: absolute;
+      top: 50px;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 30px;
+      font-family: 'Orbitron', sans-serif;
+      z-index: 10;
+      pointer-events: none;
+      text-align: center;
+    "
+  >
+    THE WORLD IS YOURS!
+  </div>
+
+  <div
+    id="newText"
+    style="
+      position: absolute;
+      top: 345px;
+      left: 90px;
+      color: white;
+      font-size: 10px;
+      font-family: 'verdana', sans-serif;
+      z-index: 10;
+      pointer-events: none;
+    "
+  >
+    Zoom in to peep the details on this world wide globe.
+  </div>
+</html>
